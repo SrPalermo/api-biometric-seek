@@ -2,6 +2,6 @@
 {
     public class ExternalProviders
     {
-        public DeepSeekSettings DeepSeekSettings { get; set; } = null!;
+        public DeepSeek DeepSeek { get; set; } = null!;
     }
 }

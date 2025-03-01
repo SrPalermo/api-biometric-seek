@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 
-namespace models.Sources.FacialAuthenticationSeek.Request;
+namespace models_biometric_seek.Sources.FacialAuthenticationSeek.Internal.Request;
 
 public class FacialAuthenticationSeekRequest
 {

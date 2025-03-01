@@ -1,4 +1,4 @@
-﻿namespace models.Sources.FacialAuthenticationSeek.Response;
+﻿namespace models_biometric_seek.Sources.FacialAuthenticationSeek.Internal.Response;
 
 public class FacialAuthenticationSeekResponse
 {
