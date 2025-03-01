@@ -1,0 +1,18 @@
+# Ignorar archivos de configuración de desarrollo
+appsettings.Development.json
+
+# Ignorar carpetas de compilación y dependencias
+bin/
+obj/
+.vs/
+.vscode/
+node_modules/
+
+# Ignorar archivos de usuario
+*.user
+*.suo
+*.userprefs
+
+# Ignorar archivos de registro y bases de datos
+*.log
+*.sqlite
