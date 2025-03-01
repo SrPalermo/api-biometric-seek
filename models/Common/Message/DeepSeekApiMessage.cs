@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace models.Common.DeepSeek;
+namespace models_biometric_seek.Common.Message;
 
 public class DeepSeekApiMessage
 {

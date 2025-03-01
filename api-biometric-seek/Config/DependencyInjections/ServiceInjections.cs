@@ -1,7 +1,7 @@
 ﻿using api_biometric_seek.Common.Interfaces.Services;
 using api_biometric_seek.Sources.FacialAuthenticationSeek.Services;
-using models.Sources.FacialAuthenticationSeek.Request;
-using models.Sources.FacialAuthenticationSeek.Response;
+using models_biometric_seek.Sources.FacialAuthenticationSeek.Internal.Request;
+using models_biometric_seek.Sources.FacialAuthenticationSeek.Internal.Response;
 
 namespace api_biometric_seek.Config.DependencyInjections;
 public static class ServiceInjections

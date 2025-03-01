@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace models.Sources.DeepSeekExternalApi.Response;
+namespace models_biometric_seek.Sources.FacialAuthenticationSeek.External.Response;
 
 public class DeepSeekExternalApiResponse
 {

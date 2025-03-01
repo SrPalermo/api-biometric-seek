@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-biometric-seek", "api-biometric-seek\api-biometric-seek.csproj", "{63AC27C6-5D63-431C-853F-E37EB09DD79D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "models", "models\models.csproj", "{7AC22BC1-1A04-41AC-AAA0-EF8BEF9D826D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "models-biometric-seek", "models\models-biometric-seek.csproj", "{7AC22BC1-1A04-41AC-AAA0-EF8BEF9D826D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "validations-biometric-seek", "validations-biometric-seek\validations-biometric-seek.csproj", "{E23717B2-89CB-4760-A71A-AC8583C48A0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "utilities-biometric-seek", "Utilities-biometric-seek\utilities-biometric-seek.csproj", "{C7DBAC76-DE37-46FC-A28A-674ABD70EFDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{7AC22BC1-1A04-41AC-AAA0-EF8BEF9D826D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AC22BC1-1A04-41AC-AAA0-EF8BEF9D826D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AC22BC1-1A04-41AC-AAA0-EF8BEF9D826D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E23717B2-89CB-4760-A71A-AC8583C48A0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E23717B2-89CB-4760-A71A-AC8583C48A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E23717B2-89CB-4760-A71A-AC8583C48A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E23717B2-89CB-4760-A71A-AC8583C48A0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7DBAC76-DE37-46FC-A28A-674ABD70EFDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7DBAC76-DE37-46FC-A28A-674ABD70EFDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7DBAC76-DE37-46FC-A28A-674ABD70EFDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7DBAC76-DE37-46FC-A28A-674ABD70EFDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

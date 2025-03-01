@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>api_biometric_seek</RootNamespace>
@@ -20,7 +20,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\models\models.csproj" />
+    <ProjectReference Include="..\models\models-biometric-seek.csproj" />
+    <ProjectReference Include="..\Utilities-biometric-seek\utilities-biometric-seek.csproj" />
+    <ProjectReference Include="..\validations-biometric-seek\validations-biometric-seek.csproj" />
   </ItemGroup>
 
 </Project>
