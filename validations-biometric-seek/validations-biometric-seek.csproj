@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\models-biometric-seek\models-biometric-seek.csproj" />
     <ProjectReference Include="..\models\models-biometric-seek.csproj" />
   </ItemGroup>
 
