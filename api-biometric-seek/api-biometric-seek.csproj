@@ -21,8 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\models-biometric-seek\models-biometric-seek.csproj" />
-    <ProjectReference Include="..\models\models-biometric-seek.csproj" />
-    <ProjectReference Include="..\Utilities-biometric-seek\utilities-biometric-seek.csproj" />
+    <ProjectReference Include="..\utilities-biometric-seek\utilities-biometric-seek.csproj" />
     <ProjectReference Include="..\validations-biometric-seek\validations-biometric-seek.csproj" />
   </ItemGroup>
 
